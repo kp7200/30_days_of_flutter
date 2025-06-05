@@ -13,7 +13,12 @@ class MyApp extends StatelessWidget {
       home: Material(
         child: Center(
           child: Container(
-            child: Text("Welcome to 30 days of Flutter..."),
+            child: Column(
+              children: [
+                Text("Welcome to 30 days of Flutter..."),
+                Text("Keval")
+              ],
+            )
           ),
         ),
       ),
